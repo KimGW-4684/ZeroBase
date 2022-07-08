@@ -18,9 +18,9 @@ public class Test03 {
         System.out.println("입장 시간을 입력해 주세요. (숫자입력) : ");
         time = sc.nextInt();
         System.out.println("국가유공자 여부를 입력해 주세요. (y / n) : ");
-        national = sc.next().trim().charAt(0);
+        national = sc.next().charAt(0);
         System.out.println("복지카드 여부를 입력해 주세요. (y / n) : ");
-        welfare = sc.next().trim().charAt(0);
+        welfare = sc.next().charAt(0);
 
         sc.close();
 
